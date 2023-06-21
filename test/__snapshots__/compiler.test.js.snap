@@ -39,13 +39,17 @@ Object {
 
 exports[`compiler addEntry: object, allEntries: true 1`] = `
 Object {
-  "a": Array [
-    "webpack-hot-client/client?test",
-    "index-a.js",
-  ],
-  "b": Array [
-    "webpack-hot-client/client?test",
-    "index-b.js",
-  ],
+  "a": Object {
+    "import": Array [
+      "webpack-hot-client/client?test",
+      "index-a.js",
+    ],
+  },
+  "b": Object {
+    "import": Array [
+      "webpack-hot-client/client?test",
+      "index-b.js",
+    ],
+  },
 }
 `;

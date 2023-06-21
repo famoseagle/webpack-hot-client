@@ -85,8 +85,8 @@ describe('compiler', () => {
 
   test('addEntry: object, allEntries: true', () => {
     const entry = {
-      a: ['index-a.js'],
-      b: ['index-b.js']
+      a: { import: ['index-a.js'] },
+      b: { import: ['index-b.js'] }
     };
     const opts = getOptions({ allEntries: true });
     const entries = addEntry(entry, compilerName, opts);
