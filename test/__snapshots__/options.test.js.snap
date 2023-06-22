@@ -36,7 +36,7 @@ Object {
     "name": "hot",
     "options": Object {
       "factory": null,
-      "id": "hot8PCz85HRDP7uxZ_L6Hhqa",
+      "id": Any<String>,
       "level": "trace",
       "name": "hot",
       "prefix": Object {
@@ -113,7 +113,7 @@ Object {
     "name": "hot",
     "options": Object {
       "factory": null,
-      "id": "hotHKzrPuvSOsxAvTVGgczAB",
+      "id": Any<String>,
       "level": "info",
       "name": "hot",
       "prefix": Object {
@@ -189,7 +189,7 @@ Object {
     "name": "hot",
     "options": Object {
       "factory": null,
-      "id": "hotBz0TZY5ilmmwq4IilvQ27",
+      "id": "hotSrZANt4UpqKVoLKPAP_Bu",
       "level": "info",
       "name": "hot",
       "prefix": Object {
@@ -265,7 +265,7 @@ Object {
     "name": "hot",
     "options": Object {
       "factory": null,
-      "id": "hotH9tdCTF-b4G7mF2NW2xWs",
+      "id": "hotMaZW4-H2eK3Q0IU_jPLA9",
       "level": "info",
       "name": "hot",
       "prefix": Object {

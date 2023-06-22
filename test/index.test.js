@@ -124,6 +124,7 @@ describe('api', () => {
       expect({ host, port }).toMatchSnapshot({
         port: expect.any(Number)
       });
+      opts.log.options.id = expect.any(String);
       // this assign is necessary as Jest cannot manipulate a frozen object
       expect(Object.assign({}, opts)).toMatchSnapshot({
         webSocket: {

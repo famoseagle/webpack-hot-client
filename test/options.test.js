@@ -9,6 +9,7 @@ const getOptions = require('../lib/options');
 describe('options', () => {
   test('defaults', () => {
     const options = getOptions();
+    options.log.options.id = expect.any(String);
     expect(options).toMatchSnapshot({
       stats: {
         context: expect.stringMatching(/(webpack-hot-client|project)$/)
@@ -45,7 +46,7 @@ describe('options', () => {
       test: true
     };
     const options = getOptions(altered);
-    // console.log(JSON.stringify(options, null, 2));
+    options.log.options.id = expect.any(String);
     expect(options).toMatchSnapshot();
   });
 

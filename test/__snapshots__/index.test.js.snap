@@ -125,7 +125,7 @@ Object {
     "name": "hot",
     "options": Object {
       "factory": null,
-      "id": "hotKa9rKkt2pZwuI-h9Ew7jU",
+      "id": Any<String>,
       "level": "silent",
       "name": "hot",
       "prefix": Object {
