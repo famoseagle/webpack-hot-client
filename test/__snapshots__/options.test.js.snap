@@ -20,11 +20,11 @@ Object {
       "options": Object {
         "level": [Function],
         "name": [Function],
-        "template": "[{{time}}] {{level}} [90m｢{{name}}｣[39m: ",
+        "template": "[{{time}}] {{level}}",
         "time": [Function],
       },
-      Symbol(a log instance): [Circular],
-      Symbol(valid log levels): Object {
+      Symbol(log-instance): [Circular],
+      Symbol(log-levels): Object {
         "DEBUG": 1,
         "ERROR": 4,
         "INFO": 2,
@@ -36,11 +36,12 @@ Object {
     "name": "hot",
     "options": Object {
       "factory": null,
+      "id": "hot8PCz85HRDP7uxZ_L6Hhqa",
       "level": "trace",
       "name": "hot",
       "prefix": Object {
         "level": [Function],
-        "template": "[{{time}}] {{level}} [90m｢{{name}}｣[39m: ",
+        "template": "[{{time}}] {{level}}",
       },
       "timestamp": true,
       "unique": true,
@@ -96,11 +97,11 @@ Object {
       "options": Object {
         "level": [Function],
         "name": [Function],
-        "template": "{{level}} [90m｢{{name}}｣[39m: ",
+        "template": "{{level}}",
         "time": [Function],
       },
-      Symbol(a log instance): [Circular],
-      Symbol(valid log levels): Object {
+      Symbol(log-instance): [Circular],
+      Symbol(log-levels): Object {
         "DEBUG": 1,
         "ERROR": 4,
         "INFO": 2,
@@ -112,11 +113,12 @@ Object {
     "name": "hot",
     "options": Object {
       "factory": null,
+      "id": "hotHKzrPuvSOsxAvTVGgczAB",
       "level": "info",
       "name": "hot",
       "prefix": Object {
         "level": [Function],
-        "template": "{{level}} [90m｢{{name}}｣[39m: ",
+        "template": "{{level}}",
       },
       "timestamp": false,
       "unique": true,
@@ -171,11 +173,11 @@ Object {
       "options": Object {
         "level": [Function],
         "name": [Function],
-        "template": "{{level}} [90m｢{{name}}｣[39m: ",
+        "template": "{{level}}",
         "time": [Function],
       },
-      Symbol(a log instance): [Circular],
-      Symbol(valid log levels): Object {
+      Symbol(log-instance): [Circular],
+      Symbol(log-levels): Object {
         "DEBUG": 1,
         "ERROR": 4,
         "INFO": 2,
@@ -187,11 +189,12 @@ Object {
     "name": "hot",
     "options": Object {
       "factory": null,
+      "id": "hotBz0TZY5ilmmwq4IilvQ27",
       "level": "info",
       "name": "hot",
       "prefix": Object {
         "level": [Function],
-        "template": "[{{time}}] {{level}} [90m｢{{name}}｣[39m: ",
+        "template": "{{level}}",
       },
       "timestamp": false,
       "unique": true,
@@ -246,11 +249,11 @@ Object {
       "options": Object {
         "level": [Function],
         "name": [Function],
-        "template": "{{level}} [90m｢{{name}}｣[39m: ",
+        "template": "{{level}}",
         "time": [Function],
       },
-      Symbol(a log instance): [Circular],
-      Symbol(valid log levels): Object {
+      Symbol(log-instance): [Circular],
+      Symbol(log-levels): Object {
         "DEBUG": 1,
         "ERROR": 4,
         "INFO": 2,
@@ -262,11 +265,12 @@ Object {
     "name": "hot",
     "options": Object {
       "factory": null,
+      "id": "hotH9tdCTF-b4G7mF2NW2xWs",
       "level": "info",
       "name": "hot",
       "prefix": Object {
         "level": [Function],
-        "template": "[{{time}}] {{level}} [90m｢{{name}}｣[39m: ",
+        "template": "{{level}}",
       },
       "timestamp": false,
       "unique": true,

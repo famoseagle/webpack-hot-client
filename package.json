@@ -29,7 +29,8 @@
     "ci:lint": "npm run lint && npm run security",
     "ci:test": "NODE_TLS_REJECT_UNAUTHORIZED=0 npm run test -- --runInBand",
     "ci:coverage": "NODE_TLS_REJECT_UNAUTHORIZED=0 npm run test:coverage -- --runInBand",
-    "defaults": "defaults"
+    "defaults": "defaults",
+    "postinstall": "npm run build:client"
   },
   "files": [
     "client/",
